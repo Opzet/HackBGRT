@@ -16,7 +16,9 @@ When booting on a UEFI-based computer, Windows may show a vendor-defined logo wh
 ### Windows installation
 
 * Get the latest release from the Releases page.
+* Compile Console App (HackBGRT.sln) 
 * Start `setup.exe` and follow the instructions.
+
 	* You may need to manually disable Secure Boot and then retry.
 	* The installer will launch Notepad for modifying the configuration.
 		* If you need only one custom image, the defaults are fine.
